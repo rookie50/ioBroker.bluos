@@ -1,0 +1,16 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"Player Name": {
+			"type": "text",
+			"label": "Player Name",
+			"newLine": true
+		},
+		"Player IP": {
+			"type": "text",
+			"label": "Player IP",
+			"newLine": true
+		}
+	}
+}

@@ -1,0 +1,108 @@
+{
+	"common": {
+		"name": "bluos",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "BluOS Multiroom System ",
+		"titleLang": {
+			"en": "BluOS Multiroom System ",
+			"de": "BluOS Multiroom System ",
+			"ru": "BluOS Multiroom System ",
+			"pt": "BluOS Multiroom System ",
+			"nl": "BluOS Multiroom System ",
+			"fr": "BluOS Multiroom System ",
+			"it": "BluOS Multiroom System ",
+			"es": "BluOS Multiroom System ",
+			"pl": "BluOS Multiroom System ",
+			"zh-cn": "BluOS Multiroom System "
+		},
+		"desc": {
+			"en": "To control your Bluesound or NAD devices",
+			"de": "To control your Bluesound or NAD devices",
+			"ru": "To control your Bluesound or NAD devices",
+			"pt": "To control your Bluesound or NAD devices",
+			"nl": "To control your Bluesound or NAD devices",
+			"fr": "To control your Bluesound or NAD devices",
+			"it": "To control your Bluesound or NAD devices",
+			"es": "To control your Bluesound or NAD devices",
+			"pl": "To control your Bluesound or NAD devices",
+			"zh-cn": "To control your Bluesound or NAD devices"
+		},
+		"authors": [
+			"rookie50 <rookie50@web.de>"
+		],
+		"keywords": [
+			"Multiroom",
+			"NAD",
+			"Bluesound",
+			"Soundsystem"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "bluos.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/rookie50/ioBroker.bluos/main/admin/bluos.png",
+		"readme": "https://github.com/rookie50/ioBroker.bluos/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "multimedia",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"Player Name": "Livingroom",
+		"Player IP": "192.168.1.100"
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+			"_id": "info",
+			"type": "channel",
+			"common": {
+				"name": "Information"
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.connection",
+			"type": "state",
+			"common": {
+				"role": "indicator.connected",
+				"name": "Device or service connected",
+				"type": "boolean",
+				"read": true,
+				"write": false,
+				"def": false
+			},
+			"native": {}
+		}
+	]
+}

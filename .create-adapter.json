@@ -1,0 +1,58 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "bluos",
+	"title": "BluOS Multiroom System ",
+	"description": "To control your Bluesound or NAD devices",
+	"keywords": [
+		"Multiroom",
+		"NAD",
+		"Bluesound",
+		"Soundsystem"
+	],
+	"contributors": "",
+	"icon": {
+		"data": "data:image/png;base64,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",
+		"extension": "png"
+	},
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "multimedia",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "Player Name",
+			"inputType": "text",
+			"defaultValue": "Livingroom"
+		},
+		{
+			"key": "Player IP",
+			"inputType": "text",
+			"defaultValue": "192.168.1.100"
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"authorName": "rookie50",
+	"authorGithub": "rookie50",
+	"authorEmail": "rookie50@web.de",
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
